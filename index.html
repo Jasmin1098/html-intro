@@ -4,72 +4,119 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hoja de vida</title>
+    <title>Mi hoja de vida</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
+
   <body>
-    <h1>Información General</h1>
-    <div>
-      <div>Cindy Jasmin Lopez Ponce</div>
-      <div>Email: cjlopez640@gmail.com</div>
-      <div>Teléfono: 8797-1019</div>
-      <div>San Pedro Sula, Honduras</div>
-    </div>
-    <a href="https://github.com/Jasmin1098">Mi perfil de Github</a>
-    <br />
-    <a href="https://www.linkedin.com/in/jasmin-lopez-9750421a5"
-      >Mi perfil de LinkedIn</a
-    >
-    <br />
-    <h2>Experiencia Laboral</h2>
-    <ul>
-      <li>Secretaría de Salud - Asistente de RH</li>
-      <li>New Beginnings Learning Center - Docente</li>
-      <li>Coral International School - Docente</li>
-      <li>Allied Global - Asesor de servicio al cliente</li>
-    </ul>
-    <h2>Habilidades técnológicas que deseo manejar</h2>
-    <table>
-      <tr>
-        <td>HTML</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-      </tr>
-      <tr>
-        <td>React</td>
-      </tr>
-      <tr>
-        <td>Azure</td>
-      </tr>
-      <tr>
-        <td>AWS</td>
-      </tr>
-    </table>
-    <h2>Intereses</h2>
-    <table>
-      <tr>
-        <td>Desarrollo backend y frontend</td>
-      </tr>
-      <tr>
-        <td>Ciberseguridad</td>
-      </tr>
-      <tr>
-        <td>Aplicaciones móviles</td>
-      </tr>
-      <tr>
-        <td>UI/UX</td>
-      </tr>
-    </table>
-    <br />
-    <div>
-      <input type="text" />
-      <br />
-      <textarea>Deja un mensaje</textarea>
-      <br />
-      <button>Contactar</button>
+    <div class="container">
+      <div class="profile">
+        <img class="profile-image" src="foto.jpg" />
+        <h2 id="head">Contacto</h2>
+        <p>
+          <i class="material-icons">mail</i
+          ><strong>cjlopez640@gmail.com</strong>
+        </p>
+        <p><i class="material-icons">phone</i><strong>8797-1019</strong></p>
+        <p>
+          <i class="material-icons">place</i
+          ><strong>Dirección: San Pedro Sula</strong>
+        </p>
+        <i class="fa fa-github"></i>
+        <a href="https://github.com/Jasmin1098">Mi Github</a>
+        <br />
+        <br />
+        <i class="fa fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/jasmin-lopez-9750421a5">Mi LinkedIn</a>
+        <br />
+      </div>
+
+      <div class="box-2">
+        <div class="intro">
+          <h1><strong>Cindy Jasmin Lopez Ponce</strong></h1>
+          <p class="phead">Estudiante de Ingeniería en Sistemas</p>
+          <div class="clearfix"></div>
+          <hr class="hr1" />
+        </div>
+
+        <div class="content-2">
+          <h2 class="head">Experiencia Laboral</h2>
+          <hr class="hr2" />
+          <div class="clearfix"></div>
+          <p class="para-1">
+            Asistente de trámites Recursos Humanos | Secretaría de Salud
+            <strong>(2021 - Actual)</strong>
+          </p>
+          <br>
+          <p class="para-1">
+            Docente bilingüe | New Beginnings Learning Center
+            <strong>(2020 - 2021)</strong>
+          </p>
+        <br>
+          <p class="para-1">
+            Docente bilingüe | Coral International School
+            <strong>(2017-2020)</strong>
+          </p>
+         <br>
+          <p class="para-1">
+            Asesor de servicio al cliente | Allied Global
+            <strong>(2017)</strong>
+          </p>
+        </div>
+        
+        <div class="content-2">
+          <h2 class="head">EDUCACIÓN</h2>
+          <hr class="hr2" />
+          <div class="clearfix"></div>
+          <p class="para-1">
+            Universidad Nacional Autónoma de Honduras
+            <strong>(2018 - Actual)</strong>
+          </p>
+          <p class="para-21">
+            Pasante de Ingeniería en Sistemas Computacionales
+          </p>
+          <br>
+          <p class="para-1">
+            Instituto Superación San Francisco de Asis<strong>(2016)</strong>
+          </p>
+          <p class="para-21">Bachillerato Técnico Profesional en Informática</p>
+        </div>
+        
+        <div class="content-2">
+          <h2 class="head">Conocimientos de Software</h2>
+          <hr class="hr2" />
+          <div class="clearfix"></div>
+          <p class="para-21">C++</p>
+          <p class="para-21">C#</p>
+          <p class="para-21">JAVA</p>
+          <p class="para-21">Arduino</p>
+          <p class="para-21">Oracle databases</p>
+        </div>
+        <div class="content-2">
+          <h2 class="head">Interéses</h2>
+          <hr class="hr2" />
+          <div class="clearfix"></div>
+          <p class="para-21">Desarrollo backend y frontend</p>
+          <p class="para-21">Ciberseguridad</p>
+          <p class="para-21">Aplicaciones móviles</p>
+          <p class="para-21">UI/UX</p>
+          <p class="para-21">AI</p>
+        </div>
+      </div>
     </div>
   </body>
 </html>

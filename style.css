@@ -1,0 +1,130 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    margin:0px;
+    padding: 0px;
+    height: 150vh;
+}
+.clearfix{
+	clear: both;
+}
+.profile-image{
+    width: 300px;
+    display: inline-block;
+	height: 300px;
+}
+
+h2{
+    color: #ffffff;
+}
+
+.container{
+    width: 1000px;
+    height: 1300px;
+    display: flex;
+    margin:0 auto;
+    background-color: rgba(244, 244, 244, 0.921);
+    box-shadow:  5px 5px 5px 5px #00000024;
+}
+.profile{
+    width: 30%;
+    background-color:#044058 ;
+    font-family:'Nunito', sans-serif ;
+    font-size: 20px;
+    padding: auto;
+    color: #ffffff;
+}
+.content-2{
+	padding: 20px;
+    width: 110%;
+    
+}
+.para-1{
+	font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    text-align: justify;
+    margin: 5px 0px;
+    margin-top: 10px;
+    
+}
+.para-2{
+	font-size: 18px;
+    color: #7d7d7d;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.para-21{
+    font-size: 18px;
+    color: #000;
+    text-align: justify;
+    margin: 5px 0px;
+    margin-top: 10px;
+}
+.hr2{
+    border: none;
+    height: 3px;
+    background: #4384a8;
+    width: 245px;
+    float: left;
+    display: block;
+}
+.head{
+	color:steelblue;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+}
+.box-2{
+	width: 54%;
+    float: left;
+    padding: 0px;
+    padding-left: auto;
+    padding-right: 20px;
+    position: relative;
+}
+.intro{text-align: center;}
+
+.intro h1{
+	font-size: auto;
+	font-weight: normal;
+	color: #26252d;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    margin: 7px;
+}
+.hr1{
+    position: auto;
+    background: #3a768e24 ;
+    height: 6px;
+    width: 322px;
+    border: none;
+    right: 10px;
+    top: 17%;
+}
+.phead{
+    font-size: auto;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+a{
+    color: #ffffff;
+}
+
+#head{
+	color: #ffffff;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 5px;
+    letter-spacing: 5px;
+    font-size: large;
+    font-family: sans-serif;
+}
